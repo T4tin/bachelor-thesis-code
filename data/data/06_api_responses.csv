@@ -1,0 +1,2 @@
+tokens	sentences	response
+"['Cas', 'clinique.', 'Un', 'patient', 'âgé', 'Le', 'patient', 'souffre', ""d'orthopédie"", 'fracture.']"	"['Cas clinique.', 'Un patient', 'âgé', 'Le patient souffre', ""d'orthopédie fracture.""]"	Cas|0 clinique|1 .|1 Un|2 patient|3 âgé|4 Le|5 patient|6 souffre|7 d|8 '|8 orthopédie|8 fracture|9 .|9
