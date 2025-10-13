@@ -1,0 +1,67 @@
+{
+  "clinical_001_original_1-1-": {
+    "ids": [
+      [
+        1,
+        "Cas"
+      ],
+      [
+        2,
+        "clinique."
+      ]
+    ],
+    "concat": "Cas clinique."
+  },
+  "clinical_001_original_1-2-": {
+    "ids": [
+      [
+        1,
+        "Un"
+      ],
+      [
+        2,
+        "patient"
+      ]
+    ],
+    "concat": "Un patient"
+  },
+  "clinical_001_original_2-2-": {
+    "ids": [
+      [
+        3,
+        "âgé"
+      ]
+    ],
+    "concat": "âgé"
+  },
+  "medical_002_simplified_1-1-": {
+    "ids": [
+      [
+        1,
+        "Le"
+      ],
+      [
+        2,
+        "patient"
+      ],
+      [
+        3,
+        "souffre"
+      ]
+    ],
+    "concat": "Le patient souffre"
+  },
+  "medical_002_simplified_1-2-": {
+    "ids": [
+      [
+        1,
+        "d'orthopédie"
+      ],
+      [
+        2,
+        "fracture."
+      ]
+    ],
+    "concat": "d'orthopédie fracture."
+  }
+}
