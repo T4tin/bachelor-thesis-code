@@ -1,0 +1,4 @@
+fold,accuracy,auc,loss,precision_expert,recall_expert,f1_expert,precision_nonexpert,recall_nonexpert,f1_nonexpert,cm_TN,cm_FP,cm_FN,cm_TP
+1,1.0000,,0.6667,0.0000,0.0000,0.0000,1.0000,1.0000,1.0000,2,0,0,0
+2,1.0000,,0.6810,1.0000,1.0000,1.0000,0.0000,0.0000,0.0000,0,0,0,2
+3,1.0000,,0.6576,0.0000,0.0000,0.0000,1.0000,1.0000,1.0000,2,0,0,0

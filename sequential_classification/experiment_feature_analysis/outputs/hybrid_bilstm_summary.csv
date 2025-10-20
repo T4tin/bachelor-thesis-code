@@ -1,0 +1,14 @@
+metric,mean,std
+fold,2.0,1.0
+accuracy,0.5,0.5
+loss,0.687,0.025
+precision_expert,0.0,0.0
+recall_expert,0.0,0.0
+f1_expert,0.0,0.0
+precision_nonexpert,0.667,0.577
+recall_nonexpert,0.5,0.5
+f1_nonexpert,0.556,0.509
+cm_TN,1.0,1.0
+cm_FP,0.333,0.577
+cm_FN,0.667,1.155
+cm_TP,0.0,0.0

@@ -1,0 +1,3 @@
+experiment,file,mean_accuracy,std_accuracy,mean_auc,std_auc,mean_precision_expert,std_precision_expert,mean_recall_expert,std_recall_expert,mean_f1_expert,std_f1_expert
+experiment_feature_analysis,hybrid_bilstm_cv_results.csv,0.5,0.5,,,0.0,0.0,0.0,0.0,0.0,0.0
+experiment_manual_selection,hybrid_bilstm_cv_results.csv,1.0,0.0,,,0.3333333333333333,0.5773502691896258,0.3333333333333333,0.5773502691896258,0.3333333333333333,0.5773502691896258
