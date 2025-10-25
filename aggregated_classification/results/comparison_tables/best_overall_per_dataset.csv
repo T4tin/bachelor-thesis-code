@@ -1,0 +1,2 @@
+Dataset,Best Model,Feature Method,Accuracy (LOOCV),Macro F1 (LOOCV),Best Params
+All,RBFSVC,pca_precomputed,0.8,0.7702205882352942,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"

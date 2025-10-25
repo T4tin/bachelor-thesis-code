@@ -1,0 +1,10 @@
+\begin{tabular}{lllrrl}
+\toprule
+Dataset & Best Model & Feature Method & Accuracy (LOOCV) & Macro F1 (LOOCV) & Best Params \\
+\midrule
+All & RandomForest & pca_live & 0.740 & 0.706 & {'classifier__max_depth': 5, 'classifier__n_estimators': 100, 'pca__n_components': 0.95} \\
+All & RBFSVC & pca_precomputed & 0.800 & 0.770 & {'classifier__C': 10, 'classifier__gamma': 'scale'} \\
+All & PolySVC & rfe & 0.720 & 0.696 & {'classifier__C': 10, 'classifier__degree': 2, 'feature_selection__n_features_to_select': 40} \\
+All & LogisticRegression & select_k_best & 0.740 & 0.714 & {'classifier__C': 1, 'classifier__solver': 'saga', 'feature_selection__k': 60} \\
+\bottomrule
+\end{tabular}
