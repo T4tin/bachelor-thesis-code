@@ -1,0 +1,11 @@
+Generated files in /mnt/data/bakeoff_tables_v3:
+all_bakeoff.tex
+all_and_medical_bakeoff.tex
+all_and_medical_and_content_bakeoff.tex
+content_bakeoff.tex
+medical_bakeoff.tex
+medical_and_content_bakeoff.tex
+non_medical_bakeoff.tex
+all_bakeoff.tex
+bakeoff_combined.tex
+best_per_dataset.tex

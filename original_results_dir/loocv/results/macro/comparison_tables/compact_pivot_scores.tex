@@ -1,0 +1,14 @@
+\begin{tabular}{lllll}
+\toprule
+Feature Method & pca_live & pca_precomputed & rfe & select_k_best \\
+Dataset &  &  &  &  \\
+\midrule
+All & 0.69 (LinearSVC) & 0.77 (RBFSVC) & 0.70 (PolySVC) & 0.71 (LogisticRegression) \\
+All And Medical & 0.72 (LinearSVC) & 0.69 (RBFSVC) & 0.59 (PolySVC) & 0.70 (LogisticRegression) \\
+All And Medical And Content & 0.70 (LogisticRegression) & 0.70 (RBFSVC) & 0.57 (RBFSVC) & 0.66 (LogisticRegression) \\
+Content & 0.73 (RBFSVC) & 0.75 (LinearSVC) & 0.64 (LinearSVC) & 0.72 (LinearSVC) \\
+Medical & 0.62 (LogisticRegression) & 0.67 (LinearSVC) & 0.53 (RandomForest) & 0.65 (LogisticRegression) \\
+Medical And Content & 0.67 (PolySVC) & 0.70 (LogisticRegression) & 0.60 (RandomForest) & 0.62 (LinearSVC) \\
+Non Medical & 0.71 (RandomForest) & 0.68 (RandomForest) & 0.71 (LogisticRegression) & 0.70 (RBFSVC) \\
+\bottomrule
+\end{tabular}

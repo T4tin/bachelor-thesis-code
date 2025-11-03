@@ -1,0 +1,18 @@
+\begin{table}[t]
+    \centering
+    \begin{tabular}{lllrrrr}
+    \toprule
+    Dataset & Model & Method & Accuracy & Precision (Macro) & Recall (Macro) & F1 (Macro) \\
+    \midrule
+    All & RBFSVC & pca\_precomputed & 0.80 & 0.80 & 0.76 & 0.77 \\
+All And Medical & LinearSVC & pca\_live & 0.74 & 0.72 & 0.72 & 0.72 \\
+All And Medical And Content & LogisticRegression & pca\_live & 0.72 & 0.70 & 0.71 & 0.70 \\
+Content & LinearSVC & pca\_precomputed & 0.76 & 0.74 & 0.75 & 0.75 \\
+Medical & LinearSVC & pca\_precomputed & 0.70 & 0.67 & 0.67 & 0.67 \\
+Medical And Content & LogisticRegression & pca\_precomputed & 0.72 & 0.70 & 0.71 & 0.70 \\
+Non Medical & RandomForest & pca\_live & 0.74 & 0.72 & 0.71 & 0.71 \\
+    \bottomrule
+    \end{tabular}
+    \caption{Best model per dataset (ranked by Macro F1; accuracy tie-breaker).}
+    \label{tab:best_per_dataset}
+    \end{table}

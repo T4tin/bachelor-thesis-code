@@ -1,0 +1,13 @@
+\begin{tabular}{lllrrl}
+\toprule
+Dataset & Best Model & Feature Method & Accuracy (LOOCV) & Macro F1 (LOOCV) & Best Params \\
+\midrule
+All & RBFSVC & pca_precomputed & 0.800 & 0.770 & {'classifier__C': 10, 'classifier__gamma': 'scale'} \\
+Content & LinearSVC & pca_precomputed & 0.760 & 0.745 & {'classifier__C': 0.1} \\
+All And Medical & LinearSVC & pca_live & 0.740 & 0.721 & {'classifier__C': 0.1, 'pca__n_components': 0.95} \\
+Non Medical & LogisticRegression & rfe & 0.740 & 0.714 & {'classifier__C': 1, 'classifier__solver': 'saga', 'feature_selection__n_features_to_select': 40} \\
+All And Medical And Content & LogisticRegression & pca_live & 0.720 & 0.703 & {'classifier__C': 0.1, 'classifier__solver': 'liblinear', 'pca__n_components': 0.95} \\
+Medical And Content & LogisticRegression & pca_precomputed & 0.720 & 0.703 & {'classifier__C': 0.1, 'classifier__solver': 'liblinear'} \\
+Medical & LinearSVC & pca_precomputed & 0.700 & 0.670 & {'classifier__C': 0.1} \\
+\bottomrule
+\end{tabular}

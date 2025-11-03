@@ -1,0 +1,8 @@
+data_source,method,best_mean,best_std,best_count
+All,pca_live,0.704,0.012649110640673542,10
+All And Medical,pca_live,0.696,0.03627058802329449,10
+All And Medical And Content,pca_live,0.7,0.04216370213557838,10
+Content,select_k_best,0.6719999999999999,0.07375635565834304,10
+Medical,pca_live,0.618,0.022010098692292254,10
+Medical And Content,pca_live,0.6479999999999999,0.05513619500836085,10
+Non Medical,select_k_best,0.696,0.020655911179772862,10

@@ -1,0 +1,33 @@
+\begin{table}[t]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llrrrr}
+    \toprule
+    Model & Method & Accuracy & Precision (Macro) & Recall (Macro) & F1 (Macro) \\
+    \midrule
+    LinearSVC & pca\_precomputed & 0.76 & 0.74 & 0.75 & 0.75 \\
+RBFSVC & pca\_live & 0.76 & 0.74 & 0.73 & 0.73 \\
+LogisticRegression & pca\_precomputed & 0.74 & 0.73 & 0.75 & 0.73 \\
+LinearSVC & select\_k\_best & 0.74 & 0.72 & 0.72 & 0.72 \\
+LogisticRegression & select\_k\_best & 0.72 & 0.70 & 0.71 & 0.70 \\
+RandomForest & select\_k\_best & 0.72 & 0.70 & 0.71 & 0.70 \\
+PolySVC & pca\_live & 0.72 & 0.69 & 0.68 & 0.69 \\
+RBFSVC & pca\_precomputed & 0.72 & 0.70 & 0.66 & 0.67 \\
+LinearSVC & rfe & 0.66 & 0.63 & 0.64 & 0.64 \\
+RBFSVC & rfe & 0.70 & 0.69 & 0.62 & 0.62 \\
+LogisticRegression & pca\_live & 0.64 & 0.62 & 0.62 & 0.62 \\
+LinearSVC & pca\_live & 0.64 & 0.62 & 0.62 & 0.62 \\
+LogisticRegression & rfe & 0.64 & 0.61 & 0.61 & 0.61 \\
+PolySVC & pca\_precomputed & 0.66 & 0.62 & 0.59 & 0.59 \\
+RandomForest & pca\_precomputed & 0.60 & 0.57 & 0.58 & 0.58 \\
+PolySVC & select\_k\_best & 0.62 & 0.57 & 0.56 & 0.56 \\
+PolySVC & rfe & 0.60 & 0.56 & 0.55 & 0.55 \\
+RBFSVC & select\_k\_best & 0.56 & 0.54 & 0.55 & 0.54 \\
+RandomForest & pca\_live & 0.62 & 0.56 & 0.55 & 0.54 \\
+RandomForest & rfe & 0.52 & 0.43 & 0.44 & 0.43 \\
+    \bottomrule
+    \end{tabular}%
+    }
+    \caption{Model comparison for Content (LOOCV across methods).}
+    \label{tab:content_bakeoff}
+    \end{table}

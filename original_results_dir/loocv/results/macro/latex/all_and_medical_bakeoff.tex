@@ -1,0 +1,33 @@
+\begin{table}[t]
+    \centering
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{llrrrr}
+    \toprule
+    Model & Method & Accuracy & Precision (Macro) & Recall (Macro) & F1 (Macro) \\
+    \midrule
+    LinearSVC & pca\_live & 0.74 & 0.72 & 0.72 & 0.72 \\
+LogisticRegression & select\_k\_best & 0.72 & 0.70 & 0.70 & 0.70 \\
+LogisticRegression & pca\_live & 0.72 & 0.70 & 0.70 & 0.70 \\
+RBFSVC & pca\_precomputed & 0.72 & 0.69 & 0.68 & 0.69 \\
+PolySVC & pca\_precomputed & 0.74 & 0.74 & 0.68 & 0.68 \\
+LinearSVC & select\_k\_best & 0.70 & 0.68 & 0.68 & 0.68 \\
+RBFSVC & pca\_live & 0.70 & 0.67 & 0.67 & 0.67 \\
+RBFSVC & select\_k\_best & 0.64 & 0.66 & 0.67 & 0.64 \\
+LogisticRegression & pca\_precomputed & 0.66 & 0.63 & 0.64 & 0.64 \\
+RandomForest & pca\_live & 0.68 & 0.65 & 0.63 & 0.63 \\
+RandomForest & select\_k\_best & 0.64 & 0.63 & 0.65 & 0.63 \\
+LinearSVC & pca\_precomputed & 0.66 & 0.63 & 0.62 & 0.63 \\
+PolySVC & select\_k\_best & 0.66 & 0.62 & 0.61 & 0.62 \\
+PolySVC & rfe & 0.62 & 0.59 & 0.59 & 0.59 \\
+PolySVC & pca\_live & 0.64 & 0.60 & 0.59 & 0.59 \\
+RandomForest & pca\_precomputed & 0.64 & 0.60 & 0.59 & 0.59 \\
+LinearSVC & rfe & 0.60 & 0.58 & 0.59 & 0.58 \\
+LogisticRegression & rfe & 0.60 & 0.57 & 0.58 & 0.58 \\
+RBFSVC & rfe & 0.64 & 0.59 & 0.57 & 0.57 \\
+RandomForest & rfe & 0.50 & 0.43 & 0.44 & 0.43 \\
+    \bottomrule
+    \end{tabular}%
+    }
+    \caption{Model comparison for All And Medical (LOOCV across methods).}
+    \label{tab:all_and_medical_bakeoff}
+    \end{table}

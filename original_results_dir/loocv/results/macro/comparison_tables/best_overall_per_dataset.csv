@@ -1,0 +1,8 @@
+Dataset,Best Model,Feature Method,Accuracy (LOOCV),Macro F1 (LOOCV),Best Params
+All,RBFSVC,pca_precomputed,0.8,0.7702205882352942,"{'classifier__C': 10, 'classifier__gamma': 'scale'}"
+Content,LinearSVC,pca_precomputed,0.76,0.7453310696095077,{'classifier__C': 0.1}
+All And Medical,LinearSVC,pca_live,0.74,0.7211497211497211,"{'classifier__C': 0.1, 'pca__n_components': 0.95}"
+Non Medical,LogisticRegression,rfe,0.74,0.7142857142857143,"{'classifier__C': 1, 'classifier__solver': 'saga', 'feature_selection__n_features_to_select': 40}"
+All And Medical And Content,LogisticRegression,pca_live,0.72,0.7028862478777589,"{'classifier__C': 0.1, 'classifier__solver': 'liblinear', 'pca__n_components': 0.95}"
+Medical And Content,LogisticRegression,pca_precomputed,0.72,0.7028862478777589,"{'classifier__C': 0.1, 'classifier__solver': 'liblinear'}"
+Medical,LinearSVC,pca_precomputed,0.7,0.6703296703296704,{'classifier__C': 0.1}
